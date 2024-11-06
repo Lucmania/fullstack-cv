@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Costamagna - Full Stack Developer</title>
+    <style>
+        :root {
+            --primary-color: #7c3aed;
+            --secondary-color: #6d28d9;
+            --text-color: #1f2937;
+            --light-bg: #f3f4f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text-color);
+            background: #fff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .profile-title {
+            margin-bottom: 1rem;
+        }
+
+        .profile-title h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-title h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: #e5e7eb;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .section h4 {
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        .section li {
+            margin-left: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill-tag {
+            background: var(--light-bg);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .social-links a:hover {
+            color: var(--secondary-color);
+        }
+
+        .skill-category {
+            margin-bottom: 1rem;
+        }
+
+        .skill-category h4 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-bottom: 1rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            header {
+                padding: 1.5rem 1rem;
+            }
+
+            .profile-title h1 {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="profile-title">
+            <h1>Lucas Costamagna</h1>
+            <h2>Full Stack Developer</h2>
+        </div>
+        <div class="contact-info">
+            <a href="mailto:costamagnalucas27@gmail.com">📧 costamagnalucas27@gmail.com</a>
+            <a href="tel:+5493534772356">📞 +54 9 353 477-2356</a>
+            <a href="https://www.google.com.ar/maps/place/Villa+Mar%C3%ADa,+C%C3%B3rdoba/@-32.4191345,-63.2804195,13z/data=!3m1!4b1!4m6!3m5!1s0x95cc42fb51306dc1:0xbfb3fffbd425c6b1!8m2!3d-32.4104614!4d-63.243645!16zL20vMDJwdmg1?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank">📍 Villa María, Córdoba, Argentina (5900)</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h3>PERFIL PROFESIONAL</h3>
+            <p>Desarrollador Full Stack con sólida formación académica y pasión por la tecnología. Capacidad para
+                desenvolverme tanto en el frontend como en el backend, con un enfoque integral en el desarrollo de
+                aplicaciones web. Comprometido con la calidad del código y la mejora continua de mis habilidades
+                técnicas.</p>
+        </section>
+
+        <section class="section">
+            <h3>EDUCACIÓN</h3>
+            <h4>Instituto Superior Leibnitz</h4>
+            <p><em>Analista de Sistemas de Computación - En curso (2do año)</em></p>
+            <ul>
+                <li>Análisis, diseño e implementación de sistemas informáticos completos</li>
+                <li>Desarrollo de software en múltiples capas</li>
+                <li>Formación en gestión de proyectos y trabajo en equipo</li>
+                <li>Diseño y elaboración de software de aplicación en áreas de desarrollo local y regional</li>
+                <li>Administración y mantenimiento de servicios informáticos</li>
+            </ul>
+            <br>
+            <h4>Curso de Chino Mandarín</h4>
+            <p><em>Ikaruga Escuela de Idiomas</em></p>
+            <p><em>Curso correspondiente al nivel I del HSK (Prueba de competencia en chino):</em></p>
+            <ul>
+                <li>Alfabetización: lectura y escritura de caracteres básicos.</li>
+                <li>Conversación turística para resolver necesidades lingüísticas en un viaje a China: saludos básicos,
+                    preguntar precios, saber contar en chino, formulación de preguntas básicas, etc.</li>
+                <li> Técnicas básicas de la traducción de textos en chino: diccionarios, reconocedores de ideogramas,
+                    dorama, etc.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>HABILIDADES TÉCNICAS</h3>
+
+            <div class="skill-category">
+                <h4>Frontend</h4>
+                <div class="skills">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Bootstrap</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>Backend</h4>
+                <div class="skills">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">APIs RESTful</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>Herramientas y Metodologías</h4>
+                <div class="skills">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Scrum</span>
+                    <span class="skill-tag">Control de Versiones</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3>IDIOMAS</h3>
+            <div class="skills">
+                <span class="skill-tag">Español (Nativo)</span>
+                <span class="skill-tag">Inglés (Conversacional básico)</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3>PROYECTOS</h3>
+            <p>Portafolio de proyectos disponible en mi perfil de GitHub, donde demuestro mis habilidades en:</p>
+            <ul>
+                <li>Desarrollo de aplicaciones web full stack</li>
+                <li>Implementación de interfaces de usuario y lógica de servidor</li>
+                <li>Gestión de bases de datos y APIs</li>
+                <li>Proyectos académicos y personales</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>ENLACES PROFESIONALES</h3>
+            <div class="social-links">
+                <a href="https://github.com/Lucmania" target="_blank">
+                    GitHub: /Lucmania
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-costamagna-b06b3028b/" target="_blank">
+                    LinkedIn: /lucas-costamagna
+                </a>
+                <a href="https://www.instagram.com/lucas.c_byg/" target="_blank">
+                    instagram: /lucas.c_byg
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
